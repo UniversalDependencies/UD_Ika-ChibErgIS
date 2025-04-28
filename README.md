@@ -50,7 +50,11 @@ The **UD_IKA-ChibErgIS** counts NUMBER tokens for NUMBER sentences.
 
 # Acknowledgments
 
-This treebank was produced as part of the ChibErgIS project. With special thanks to Bruno Guillaume for the conversion from SUD to UD, Sylvain Kahane, WHO ELSE?. Also special thanks to Natalia Cáceres Arandia for help with the (S)UD-annotation and to Florian Deichsler for help with glossing in Flex and solving all kinds of problems.
+This treebank was created as part of the ChibErgIS project.
+
+Special thanks go to Bruno Guillaume for the SUD-to-UD conversion, and to Sylvain Kahane and Aleksandra Miletic for their support. I am also deeply grateful to Natalia Cáceres Arandia for her assistance with the (S)UD annotation, and to Florian Deichsler for his help with glossing in FLEx and solving a wide range of technical issues.
+
+Finally, I would like to express my heartfelt thanks to the Ika native speakers for allowing me to record them, and especially to Leidy Karina Izquierdo Mejía and Gunyan Giovanny Hernán Izquierdo Mejía for transcribing the Ika data and assisting with the Spanish translations.
 
 # Changelog
 
