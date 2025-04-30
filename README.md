@@ -71,7 +71,7 @@ UPOS: manual native
 XPOS: not available
 Features: manual native
 Relations: manual native
-Contributors: Bajorat, Jana; Cáceres Arandia, Natilia
+Contributors: Bajorat, Jana; Cáceres Arandia, Natalia
 Contributing: here
 Contact: jana.bajorat@hu-berlin.de
 ===============================================================================
