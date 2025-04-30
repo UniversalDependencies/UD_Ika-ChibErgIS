@@ -40,9 +40,7 @@ AN, TS, CD, or PE: specify the type of recording.
 00000: a placeholder component that has no functional role in this subcollection.
 The final number identifies the speaker, corresponding to a specific individual.
 
-
-
-The **UD_IKA-ChibErgIS** counts NUMBER tokens for NUMBER sentences.
+The **UD_IKA-ChibErgIS** counts 3,703 tokens for 428 sentences.
 
 # References
 
@@ -73,7 +71,7 @@ UPOS: manual native
 XPOS: not available
 Features: manual native
 Relations: manual native
-Contributors: Bajorat, Jana
+Contributors: Bajorat, Jana; Cáceres Arandia, Natilia
 Contributing: here
 Contact: jana.bajorat@hu-berlin.de
 ===============================================================================
