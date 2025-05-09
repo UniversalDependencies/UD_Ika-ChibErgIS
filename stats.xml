@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treebank>
+  <!-- tokens means "surface tokens", e.g. Spanish "vámonos" counts as one token
+       words means "syntactic words", e.g. Spanish "vámonos" is split to two words, "vamos" and "nos"
+       fused is the number of tokens that are split to two or more syntactic words
+       The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
+  <size>
+    <total><sentences>439</sentences><tokens>3706</tokens><words>3706</words><fused>0</fused></total>
+    <train><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></train>
+    <dev><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></dev>
+    <test><sentences>439</sentences><tokens>3706</tokens><words>3706</words><fused>0</fused></test>
+  </size>
+  <lemmas unique="551" /><!-- nan, aw, zan, =se', ikʉ, eyma, neki, nik, zoy, ey, keywʉ, a, kwa, kaw, ʉndi -->
+  <forms unique="867" /><!-- =ri, ,, ., =se', =di, ni, ikʉ, (, =gwi, eyma, ), neki, nʉn, zʉn, ey -->
+  <fusions unique="0" /><!--  -->
+  <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
+  <tags unique="15">
+    <tag name="ADJ">121</tag><!-- ingʉ, diwʉn, ayey, du, ingeygwi, twi, aney, bunsi, kia, tʉrʉrʉ -->
+    <tag name="ADP">187</tag><!-- _, =se', pari, =ta', ekʉ, =zey -->
+    <tag name="ADV">190</tag><!-- _, ʉndi, eymi, andi, umʉ'n, ingumʉn, emay, gunti, iwa, sanusi -->
+    <tag name="AUX">501</tag><!-- nan, aw, nik, zoy, zan, kaw, nuk, _, niwingwa -->
+    <tag name="CCONJ">24</tag><!-- kwa, iwa -->
+    <tag name="DET">45</tag><!-- eyma, yow, pinna, yów, ema, aɉwa, ʉya, bin -->
+    <tag name="INTJ">45</tag><!-- eh, mhm, eri, ah, yagʉ, kwa, ehm, gwandi, ingʉ -->
+    <tag name="NOUN">407</tag><!-- pera, ikʉ, gʉmʉsinʉ, ka'a, a'nʉ, in, kʉn, zamʉ, giñia, ka'gʉmʉ -->
+    <tag name="NUM">50</tag><!-- i'ngwi, máykʉnʉ, in'gwi, ma'keywa, koga, mowga, asewa, mil, quinyentos, setentaytre -->
+    <tag name="PART">766</tag><!-- _, nan, zan, neki, ey, keywʉ, aw, kinki, pana, ki -->
+    <tag name="PRON">178</tag><!-- eyma, a, inʉ, ikʉnha', ʉya, yow, be, eymi, bema, ikʉndi -->
+    <tag name="PROPN">82</tag><!-- ikʉ, Serankwa, gwirwa, kogwi, tenʉ, Bunekʉn, Mʉnekʉn, Seynekʉn, Atikwakumʉke, España -->
+    <tag name="PUNCT">583</tag><!-- _, , -->
+    <tag name="VERB">499</tag><!-- zoy, awga, cho', ya, tak, y, aw, chu, gwak, gʉ -->
+    <tag name="X">28</tag><!-- aw, in, k, _, a, aye', buna, buns, d, el -->
+  </tags>
+  <!-- Statistics of features and values. The comments show the most frequent word forms. -->
+  <feats unique="9">
+    <feat name="Animacy" value="Anim" upos="ADP,ADV,AUX,NOUN,NUM,PRON,PROPN,VERB">98</feat><!-- =se', ikʉnha', eyma, a, gʉmʉsinʉ, eymi, ikʉ, kawʉ, =si', Paw -->
+    <feat name="Animacy" value="Inan" upos="ADP,AUX,NOUN,NUM,PRON,PROPN">64</feat><!-- pera, inʉ, eyma, ga'kʉnamʉ, ka'a, tenʉ, ga', goru, i'ngwi, in -->
+    <feat name="Case" value="Abs" upos="ADJ,ADP,AUX,NOUN,NUM,PRON,PROPN,VERB">154</feat><!-- ikʉ, pera, eyma, bunsi, inʉ, ɉwa, ikʉnha', neyka, sʉmbrenu, ɉe -->
+    <feat name="Case" value="Dat" upos="ADP,NOUN">2</feat><!-- =se', gʉmʉsinʉ -->
+    <feat name="Case" value="Erg" upos="ADP,ADV,AUX,NOUN,NUM,PRON,PROPN">94</feat><!-- =se', ikʉnha', eyma, a, gʉmʉsinʉ, ikʉ, kawʉ, =si', atinkʉnʉ, eymi -->
+    <feat name="Case" value="Nom" upos="AUX,NOUN,PRON">8</feat><!-- manʉnka', niwi, nʉn, amipaw, manʉnka -->
+    <feat name="Definite" value="Def" upos="ADP,ADV,AUX,NOUN,PRON,PROPN,VERB">118</feat><!-- =se', eyma, ikʉnha', a, eymi, gʉmʉsinʉ, tenʉ, goru, in, ka'a -->
+    <feat name="Definite" value="Ind" upos="ADP,AUX,NOUN,NUM,PRON">29</feat><!-- =se', inʉ, pera, kʉnzʉwa, ánu'gwe, eywʉ, ga'kʉnamʉ, ikʉ, kasta, kunsamʉ -->
+    <feat name="Definite" value="Spec" upos="ADP,NOUN,NUM,PRON">15</feat><!-- pera, =se', i'ngwi, atinkʉnʉ, ga', ga'kʉnamʉ, in'gwi, inʉ, ka'a, kanasta -->
+  </feats>
+  <!-- Statistics of universal dependency relations. -->
+  <deps unique="39">
+    <dep name="acl">1</dep>
+    <dep name="advcl">97</dep>
+    <dep name="advcl:purp">7</dep>
+    <dep name="advmod">647</dep>
+    <dep name="advmod:emph">123</dep>
+    <dep name="amod">34</dep>
+    <dep name="appos">11</dep>
+    <dep name="aux">348</dep>
+    <dep name="case">136</dep>
+    <dep name="cc">34</dep>
+    <dep name="ccomp">76</dep>
+    <dep name="compound">3</dep>
+    <dep name="compound:redup">10</dep>
+    <dep name="conj">44</dep>
+    <dep name="cop">93</dep>
+    <dep name="csubj">22</dep>
+    <dep name="dep">9</dep>
+    <dep name="det">42</dep>
+    <dep name="discourse">200</dep>
+    <dep name="dislocated">13</dep>
+    <dep name="flat">13</dep>
+    <dep name="iobj">8</dep>
+    <dep name="mark">48</dep>
+    <dep name="nmod">28</dep>
+    <dep name="nmod:poss">7</dep>
+    <dep name="nsubj">195</dep>
+    <dep name="nsubj:outer">1</dep>
+    <dep name="nummod">32</dep>
+    <dep name="obj">208</dep>
+    <dep name="obl">1</dep>
+    <dep name="obl:arg">65</dep>
+    <dep name="obl:lmod">38</dep>
+    <dep name="obl:tmod">3</dep>
+    <dep name="orphan">2</dep>
+    <dep name="parataxis">12</dep>
+    <dep name="punct">583</dep>
+    <dep name="reparandum">38</dep>
+    <dep name="root">439</dep>
+    <dep name="xcomp">35</dep>
+  </deps>
+</treebank>
