@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 26e6c87a2f518322d15901a351199b6be6569062
+commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri Nov 7 15:39:58 2025 +0100
+Date:   Tue May 5 17:01:41 2026 +0200
 Evaluating the following revision of UD_Ika-ChibErgIS:
-commit 182bd8ceeff95a09465bfb5d4cfce038acb69a09
-Merge: fdf3930 098c22b
+commit bd1414245095b678126ee6293c01fc48214fbcbf
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Tue Nov 11 19:47:12 2025 +0100
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'arh_chibergis'
 Language code (from CoNLL-U file name) = 'arh'
@@ -25,17 +25,17 @@ Universal relations: 31 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Genres: found 1 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang arh --max-err=10 UD_Ika-ChibErgIS/arh_chibergis-ud-test.conllu
-[Line 61 Sent AN14_03-03]: [L3 Warning pron-det-without-prontype] The word 'ema' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 108 Sent AN14_07-07]: [L3 Warning pron-det-without-prontype] The word 'eyma' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 109 Sent AN14_07-07]: [L3 Warning pron-det-without-prontype] The word 'bema' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 146 Sent AN14_09-09]: [L3 Warning pron-det-without-prontype] The word 'eyma' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 154 Sent AN14_09-09]: [L3 Warning pron-det-without-prontype] The word 'eyma' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 214 Sent AN14_15-15]: [L3 Warning pron-det-without-prontype] The word 'ema' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 290 Sent AN14_22-22]: [L3 Warning pron-det-without-prontype] The word 'pinna' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 321 Sent AN14_24-24]: [L3 Warning pron-det-without-prontype] The word 'eyma' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 329 Sent AN14_24-24]: [L3 Warning pron-det-without-prontype] The word 'ema' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 367 Sent AN14_26-26]: [L3 Warning pron-det-without-prontype] The word 'aɉwa' is tagged 'DET' but it lacks the 'PronType' feature
-...suppressing further errors regarding Warning
+[Line 61 Sent AN14_03-03]: [L3 WARNING pron-det-without-prontype] The word 'ema' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 108 Sent AN14_07-07]: [L3 WARNING pron-det-without-prontype] The word 'eyma' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 109 Sent AN14_07-07]: [L3 WARNING pron-det-without-prontype] The word 'bema' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 146 Sent AN14_09-09]: [L3 WARNING pron-det-without-prontype] The word 'eyma' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 154 Sent AN14_09-09]: [L3 WARNING pron-det-without-prontype] The word 'eyma' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 214 Sent AN14_15-15]: [L3 WARNING pron-det-without-prontype] The word 'ema' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 290 Sent AN14_22-22]: [L3 WARNING pron-det-without-prontype] The word 'pinna' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 321 Sent AN14_24-24]: [L3 WARNING pron-det-without-prontype] The word 'eyma' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 329 Sent AN14_24-24]: [L3 WARNING pron-det-without-prontype] The word 'ema' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 367 Sent AN14_26-26]: [L3 WARNING pron-det-without-prontype] The word 'aɉwa' is tagged 'DET' but it lacks the 'PronType' feature
+...suppressing further messages regarding WARNING/MORPHO
 Warnings: 278
 *** PASSED ***
 Validity: 1
